@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "422767666367",
+    "firebase_url": "https://putaway-12345.firebaseio.com",
+    "project_id": "putaway-12345",
+    "storage_bucket": "putaway-12345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422767666367:android:46feaf87e504dd94ff520a",
+        "android_client_info": {
+          "package_name": "com.bfc.putaway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422767666367-vfoufurjneln4ok41gt1n1mvajih8mbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT_GxIdRDFQwy7tTMwXDyjlBOXn6TcC0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422767666367-vfoufurjneln4ok41gt1n1mvajih8mbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

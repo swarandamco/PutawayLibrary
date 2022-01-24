@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_4_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/rfid_reader_ip"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_rounded"
+            android:hint="@string/enter_rfid_Ip"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/rfid_reader_port"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="@string/enter_rfid_Port"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/distance"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="@string/distance"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/api_url"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="@string/api_url"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/port_url"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="Enter Port"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/api_timeout"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="Timeout Seconds"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/deviceId"
+            style="@style/regular_16sp"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15_dp"
+            android:background="@drawable/et_rounded"
+            android:hint="deviceId"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="text"
+            android:padding="@dimen/dimen_10_dp"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_btn"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:background="@drawable/bg_login_btn"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            android:src="@drawable/logo_splash" />
+        <com.bfc.putaway.customviews.PutAwayCustomEditText
+            android:id="@+id/url_password"
+            style="@style/regular_16sp"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_rounded"
+            android:drawableRight="@drawable/ic_show_password"
+            android:hint="@string/password"
+            android:imeOptions="flagNoExtractUi|actionDone"
+            android:inputType="textPassword"
+            android:padding="@dimen/dimen_10_dp"
+            android:visibility="visible"
+            android:textColor="@color/colorGray"
+            android:textCursorDrawable="@null" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login_url_btn"
+            android:layout_width="@dimen/dimens_310_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:background="@drawable/bg_login_btn"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+

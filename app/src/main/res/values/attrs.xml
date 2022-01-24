@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="custom_font_type" format="enum">
+        <enum name="POPPINSREGULAR" value="1"/>
+        <enum name="POPPINSMEDIUM" value="2"/>
+        <enum name="POPPINSSEMIBOLD" value="3"/>
+        <enum name="POPPINSBOLD" value="4"/>
+    </attr>
+
+    <declare-styleable name="custom_typeface">
+        <attr name="custom_font_type"/>
+    </declare-styleable>
+</resources>

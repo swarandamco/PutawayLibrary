@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="horizontal"
+    tools:context=".view.fragments.ThreeS_PutawayFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+                <com.bfc.putaway.customviews.PutAwayCustomTextView
+                    android:id="@+id/tv_dataAny"
+                    style="@style/medium_16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.35"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:background="@drawable/et_rounded_up_gray"
+                    android:textColor="@color/colorSeagreen" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.65"
+                    android:background="@drawable/et_grey_background"
+                    android:orientation="horizontal">
+
+                    <com.bfc.putaway.customviews.PutAwayCustomTextView
+                        android:id="@+id/tv_To"
+                        style="@style/medium_16sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack" />
+            </LinearLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/expDlLayout"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_weight="0.1"-->
+<!--                android:background="@drawable/et_rounder_below_grey"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <com.bfc.putaway.customviews.PutAwayCustomTextView-->
+<!--                    android:id="@+id/tv_expDl"-->
+<!--                    style="@style/medium_16sp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:textColor="@color/colorBlack" />-->
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.28"
+            android:orientation="vertical"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp">
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                style="@style/medium_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center|bottom"
+                android:text="@string/scan"
+                android:textColor="@color/txt_wearehouse_one" />
+
+            <com.bfc.putaway.customviews.PutAwayCustomEditText
+                android:id="@+id/edit_scan"
+                style="@style/regular_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:maxLength="12"
+                android:inputType="text"
+                android:background="@drawable/et_rounded"
+                android:gravity="center"
+                android:imeOptions="flagNoExtractUi|actionDone"
+                android:singleLine="true"
+                android:textAlignment="center"
+                >
+                <requestFocus/>
+            </com.bfc.putaway.customviews.PutAwayCustomEditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.28"
+            android:orientation="vertical"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp">
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                style="@style/medium_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center|bottom"
+                android:text="@string/quantity"
+                android:textColor="@color/txt_wearehouse_one" />
+
+            <com.bfc.putaway.customviews.PutAwayCustomEditText
+                android:id="@+id/edit_qty"
+                style="@style/regular_16sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:maxLength="7"
+                android:inputType="number"
+                android:background="@drawable/et_rounded"
+                android:gravity="center"
+                android:imeOptions="flagNoExtractUi|actionNext"
+                android:singleLine="true"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="0.12"-->
+<!--            android:visibility="gone"-->
+<!--            android:orientation="vertical"-->
+<!--            android:paddingLeft="80dp"-->
+<!--            android:paddingRight="80dp">-->
+
+
+            <!--<com.bfc.putaway.customviews.PutAwayCustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/medium_18sp"
+                    android:gravity="bottom|center"
+                    android:textColor="@color/txt_wearehouse_one"
+                    android:text="@string/scan_slot"/>
+
+            <com.bfc.putaway.customviews.PutAwayCustomEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    style="@style/medium_18sp"
+                    android:id="@+id/et_scan"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:imeOptions="flagNoExtractUi|actionDone"
+                    android:hint="@string/scan_slot"
+                    android:background="@drawable/bg_edittext"/>-->
+
+<!--            <pl.droidsonroids.gif.GifImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="@dimen/dimen_5_dp"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/icon_scanning" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="0.125"-->
+<!--            android:visibility="gone">-->
+
+<!--            <com.bfc.putaway.customviews.PutAwayCustomTextView-->
+<!--                android:id="@+id/tv_errorMsg"-->
+<!--                style="@style/regular_14sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center|bottom"-->
+<!--                android:paddingTop="@dimen/dimen_5_dp"-->
+<!--                android:textColor="@color/colorRed"-->
+<!--                android:visibility="visible" />-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"/>
+
+
+</LinearLayout>

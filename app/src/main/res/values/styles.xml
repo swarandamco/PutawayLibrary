@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+        <item name="colorAccent">@color/color_bottom_bar</item>
+    
+        <!--Statusbar color-->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+    </style>
+    
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+    </style>
+    
+    <!--  Loader Theme -->
+    <style name="AppCompatAlertDialogStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="HeaderBar">
+        <item name="android:background">#303F9F</item>
+    </style>
+    
+    <!--Font Styles-->
+    <style name="regular_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="custom_font_type">POPPINSREGULAR</item>
+    </style>
+    
+    <style name="regular_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="custom_font_type">POPPINSREGULAR</item>
+    </style>
+    
+    <style name="regular_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="custom_font_type">POPPINSREGULAR</item>
+    </style>
+    
+    <style name="medium_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="custom_font_type">POPPINSMEDIUM</item>
+    </style>
+    
+    <style name="medium_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="custom_font_type">POPPINSMEDIUM</item>
+    </style>
+    
+    <style name="medium_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="custom_font_type">POPPINSMEDIUM</item>
+    </style>
+    
+    <style name="medium_22sp">
+        <item name="android:textSize">22sp</item>
+        <item name="custom_font_type">POPPINSMEDIUM</item>
+    </style>
+    
+    <style name="semibold_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="custom_font_type">POPPINSSEMIBOLD</item>
+    </style>
+    
+    <style name="semibold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="custom_font_type">POPPINSSEMIBOLD</item>
+    </style>
+    
+    <style name="semibold_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="custom_font_type">POPPINSSEMIBOLD</item>
+    </style>
+    
+    <style name="semibold_22sp">
+        <item name="android:textSize">22sp</item>
+        <item name="custom_font_type">POPPINSSEMIBOLD</item>
+    </style>
+    
+    <style name="bold_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="custom_font_type">POPPINSBOLD</item>
+    </style>
+    
+    <style name="bold_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="custom_font_type">POPPINSBOLD</item>
+    </style>
+    
+    <style name="bold_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="custom_font_type">POPPINSBOLD</item>
+    </style>
+    
+    <style name="bold_34sp">
+        <item name="android:textSize">34sp</item>
+        <item name="custom_font_type">POPPINSBOLD</item>
+    </style>
+    
+    <style name="regular_26sp">
+        <item name="android:textSize">26sp</item>
+        <item name="custom_font_type">POPPINSREGULAR</item>
+    </style>
+    
+</resources>

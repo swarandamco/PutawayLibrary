@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/btn_sidemenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_16_dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_hamburger_menu" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/dimen_3_dp"
+        android:layout_toEndOf="@+id/btn_sidemenu"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                android:id="@+id/text_screen_detail"
+                style="@style/medium_18sp"
+                fontPath="fonts/Roboto-Light.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="@dimen/dimen_10_dp"
+                android:singleLine="true"
+                android:textColor="@color/colorTitle" />
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                android:id="@+id/text_screen_detail_sub"
+                style="@style/medium_18sp"
+                fontPath="fonts/Roboto-Light.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="@dimen/dimen_10_dp"
+                android:singleLine="true"
+                android:textColor="@color/colorTitle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                android:id="@+id/text_screen_title"
+                style="@style/medium_18sp"
+                fontPath="fonts/Roboto-Light.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="@dimen/dimen_5_dp"
+                android:textColor="@color/colorTitle" />
+
+            <com.bfc.putaway.customviews.PutAwayCustomTextView
+                android:id="@+id/text_screen_title_sub"
+                style="@style/medium_18sp"
+                fontPath="fonts/Roboto-Light.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="@dimen/dimen_5_dp"
+                android:textColor="@color/colorTitle" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

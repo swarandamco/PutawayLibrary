@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <item
+            android:id="@+id/action_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings_icon"/>-->
+    <!--<item
+            android:id="@+id/action_p3"
+            android:title="@string/display_p3_on_screen"
+            android:icon="@drawable/ic_p_three"/>
+    
+    <item
+            android:id="@+id/action_lan"
+            android:title="@string/lnguage_spn"
+            android:icon="@drawable/ic_lang"/>-->
+
+    <item
+            android:id="@+id/action_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_logout_icon"/>
+
+    <item
+            android:id="@+id/action_share"
+            android:title="@string/send_email"
+            android:icon="@drawable/ic_share"/>
+    <item
+            android:id="@+id/action_rfid_reader"
+            android:title="@string/conncet_rfid_reader"
+            android:icon="@drawable/ic_forklift_icon"/>
+
+</menu>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/dimen_60"
+    android:paddingEnd="@dimen/dimen_60"
+    tools:context=".view.fragments.NineAPutawayFragment">
+
+    <com.bfc.putaway.customviews.PutAwayCustomTextView
+        android:id="@+id/tv_dataAny"
+        style="@style/medium_18sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:background="@drawable/et_all_rounded_grey"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5_dp"
+        android:singleLine="true"
+        android:textColor="@color/colorSeagreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Scan" />
+
+    <com.bfc.putaway.customviews.PutAwayCustomTextView
+        android:id="@+id/tv_from"
+        style="@style/medium_18sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center|bottom"
+        android:padding="@dimen/dimen_5_dp"
+        android:singleLine="true"
+        android:text="@string/from"
+        android:textColor="@color/txt_wearehouse_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dataAny" />
+
+    <com.bfc.putaway.customviews.PutAwayCustomEditText
+        android:id="@+id/edit_from"
+        style="@style/medium_18sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dimen_80"
+        android:layout_marginEnd="@dimen/dimen_80"
+        android:layout_marginBottom="@dimen/dimen_10_dp"
+        android:background="@drawable/et_rounded"
+        android:gravity="center"
+        android:hint="@string/from"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_from" >
+        <requestFocus />
+    </com.bfc.putaway.customviews.PutAwayCustomEditText>
+
+    <com.bfc.putaway.customviews.PutAwayCustomTextView
+        android:id="@+id/tv_type"
+        style="@style/medium_18sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center|bottom"
+        android:padding="@dimen/dimen_5_dp"
+        android:singleLine="true"
+        android:text="@string/type"
+        android:textColor="@color/txt_wearehouse_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_from" />
+
+    <com.bfc.putaway.customviews.PutAwayCustomEditText
+        android:id="@+id/edit_type"
+        style="@style/regular_16sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/dimen_80"
+        android:layout_marginEnd="@dimen/dimen_80"
+        android:layout_marginBottom="@dimen/dimen_10_dp"
+        android:background="@drawable/et_rounded"
+        android:gravity="center"
+        android:imeOptions="flagNoExtractUi|actionDone"
+        android:singleLine="true"
+        android:maxLength="1"
+        android:inputType="text"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_type" >
+    </com.bfc.putaway.customviews.PutAwayCustomEditText>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

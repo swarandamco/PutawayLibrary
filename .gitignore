@@ -1,0 +1,12 @@
+*.iml
+.gradle
+.idea
+/local.properties
+.DS_Store
+/build
+/gradle
+/captures
+.externalNativeBuild
+local.properties
+/app/build
+PutawayAndroid/.idea/compiler.xml

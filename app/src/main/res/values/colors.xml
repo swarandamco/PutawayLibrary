@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#267EE2</color>
+    <color name="colorPrimaryDark">#1B3F95</color>
+    <color name="colorAccent">#2d0f77</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSeagreen">#23B1A5</color>
+    <color name="colorRed">#F33F40</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorDarkBlue">#6200ee</color>
+    <color name="colorGray">#9884b9</color>
+    <color name="colorDarkGray">#6c6c6c</color>
+    <color name="colorTitle">#493e59</color>
+    <color name="color_bottom_bar">#6200ee</color>
+    <color name="bg_one_fragment">#fafafa</color>
+    <color name="txt_wearehouse_one">#1c3f95</color>
+    <color name="colorDivider">#bdbdbd</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="colorDrawerItems">#333333</color>
+    <color name="colorButtonBlue">#4526a1</color>
+    <color name="colorHighlightedText">#23b1a5</color>
+    <color name="color_txt_task_desc">#6d6d6d</color>
+    <color name="color_bg_box">#e7e7e7</color>
+    <color name="color_light_yellow">#D1642C</color>
+
+</resources>
